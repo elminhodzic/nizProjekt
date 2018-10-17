@@ -17,8 +17,8 @@ public class NizoviGit {
 	return 0;
     }
     
-    public double sveUnikatneBrojeveUNizu (double [] niz) {
-	return 0;
+    public double [] sveUnikatneBrojeveUNizu (double [] niz) {
+	return niz;
     }
     
     public double [] sortiraniOdManjegKaVecem (double [] niz) {
