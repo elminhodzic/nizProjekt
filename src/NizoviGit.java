@@ -11,7 +11,12 @@ public class NizoviGit {
 	}
 
 	public double najveciBrojUNizu(double[] niz) {
-		return 0;
+		double max = niz[0];
+		for (int i = 1; i < niz.length; i++) {
+			if (niz[i] < max)
+				max = niz[i];
+		}
+		return max;
 	}
 
 	public double zbirSvihBrojevaUNizu(double[] niz) {
